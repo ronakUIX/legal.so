@@ -1,0 +1,744 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    font-family: "Baskervville";
+}
+.photo{
+    width: 100%;
+    height: 500px;
+    background-image: url(5d47d39fc6dc930466ccb23ff561ca7c.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo .container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav{
+    width: 1100px;
+    height: 48px;
+    border-radius: 32px;
+    background-color: rgba(255, 199, 111, 1);
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: right;
+    position: relative;
+}
+.photo nav .logo{
+    width: 200px;
+    height: 64px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+.photo .logo:hover{
+    background-image: url(logo\ w.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.menu{
+    width: 1100px;
+    height: 48px;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+.menu a{
+    margin-top: 100px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.menu a:hover{
+    color: #fff;
+    padding-bottom: 8px;
+}
+/* dropdown */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+    background-color: black;
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+    cursor: pointer;
+    font-size:20px ;
+    opacity: 70%;
+    display: none;
+    position: absolute;     
+}
+.dropdown-menu a{
+    color: white;
+}
+.dropdown-menu a:hover{
+    background-color:rgba(255, 199, 111, 1);
+}
+.dropdown:hover .dropdown-menu{
+display: block;
+}
+.dropdown2{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu2{
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+    font-size:20px ;
+    opacity: 70%;
+    display: none;
+    position: absolute;  
+}
+.dropdown-menu2 a{
+    color: white;
+}
+.dropdown-menu2 a:hover{
+    background-color: rgba(255, 199, 111, 1);
+}
+.dropdown2:hover .dropdown-menu2{
+    display: block; 
+}
+/* dropdown */
+.line{
+    
+    margin-top: 80px;
+    margin-left: 210px;
+}
+.line h1{
+    margin: 0;
+    color: rgba(255, 199, 111, 1);
+    font-size: 64px;
+    padding: 0;
+}
+.line h3{
+    margin: 0;
+    color: rgba(255, 199, 111, 1);
+}
+.line p{
+    color: rgba(255, 199, 111, 1);
+}
+.photo .click button{
+    width: 220px;
+    height: 36px;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgba(255, 199, 111, 1);
+    border-color: rgba(255, 199, 111, 1);
+    border-radius: 16px;
+    margin-left: 210px;
+}
+.photo .click1 button{
+    width: 220px;
+    height: 36px;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgba(255, 199, 111, 1);
+    border-radius: 16px;
+    position: absolute;
+    top: 340px;
+    left: 460px;
+}
+.box1{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.box1 p{
+    margin-left: 210px;
+    margin-top: 36px;
+    color:  rgb(255, 255, 255);
+    font-size: 64px;
+}
+.box1 button{
+    width: 280px;
+    height: 64px;
+    background-color:  rgba(255, 199, 111, 1);
+    border-color:  rgba(255, 199, 111, 1);
+    border-radius:24px ;
+    font-size: 32px;
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    cursor: pointer;
+}
+.box2{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.box2 img{
+    width: 400px;
+    position: absolute;
+    left: 210px;
+    top: 50px;
+    border-radius: 24px;
+}
+.box2 p{
+    font-size: 24px;
+    color:  rgb(255, 255, 255);
+    position: absolute;
+    top: 60px;
+    right: 130px;
+}
+.box2 h1{
+    font-size: 36px;
+    color:  rgb(255, 255, 255);
+    position: absolute;
+    top: 10px;
+    right: 240px;
+}
+.box2 .logo-pic{
+    width: 500px;
+    height: 100px;
+background-image: url(F25.png);
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+top: 300px;
+left: 850px;
+}
+.box5{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.box5 img{
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+.box5 h1{
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    color:rgb(255, 255, 255) ;
+    font-size: 36px;
+}
+.box5 p{
+    position: absolute;
+    top: 160px;
+    left: 210px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.box3{
+    width: 100%;
+    height: 550px;
+}
+.box3 .head1{
+    width: 100%;
+    height: 48px;
+    text-align: center;
+}
+.box3 .head1 h1{
+    color: rgb(255, 255, 255) ;
+    font-size: 48px;
+}
+.box3 .grid{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    grid-template-rows: repeat(3,180px);
+    gap: 50px;
+    margin-left: 260px;
+    margin-top: 60px;
+}
+.box3 .pic1{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1/2;
+    grid-column:1/2 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box3 .pic2{
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column:2/2 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box3 .pic3{
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column:3/4 ;
+    text-align: center;
+    border-radius: 24px;
+}
+    
+.box3 .pic4{
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/3;
+    grid-column:1/2 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box3 .pic5{
+    background-image: url(5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/3;
+    grid-column:2/3 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box3 .pic6{
+    background-image: url(6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/3;
+    grid-column:3/4 ;
+    text-align: center;
+    border-radius: 24px;
+    
+}
+.box3 .grid button{ 
+    width: 120px;
+    height: 64px;
+    font-size: 25px;
+    background-color: #fff;  
+    border: none;
+    opacity: 80%;
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.box3 .grid button:hover {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+.box4{
+    width: 100%;
+    height: 800px;
+}
+.box4 .head2{
+    width: 100%;
+    height: 48px;
+    text-align: center;
+}
+.box4 .head2 h1{
+    color: rgb(255, 255, 255) ;
+    font-size: 48px;
+}
+.box4 .grid{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,280px);
+    grid-template-rows: repeat(3,180px);
+    gap: 50px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.box4 .pic1{
+    background-image: url(7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1/2;
+    grid-column:1/2 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box4 .pic2{
+    background-image: url(8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column:2/3 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box4 .pic3{
+    background-image: url(9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column:3/4 ;
+    text-align: center;
+    border-radius: 24px;
+}
+    
+.box4 .pic4{
+    background-image: url(10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 1/2;
+    grid-column:4/5 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box4 .pic5{
+    background-image: url(11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/3;
+    grid-column:1/2 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box4 .pic6{
+    background-image: url(12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/3;
+    grid-column:2/3 ;
+    text-align: center; 
+    border-radius: 24px;
+}
+.box4 .pic7{
+    background-image: url(13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 2/3;
+    grid-column:3/4 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box4 .pic8{
+    background-image: url(14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/3;
+    grid-column:4/5;
+    text-align: center;
+    border-radius: 24px;
+}
+.box4 .pic9{
+    background-image: url(15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 3/4;
+    grid-column:1/2 ;
+    text-align: center;
+    border-radius: 24px;
+}
+    
+.box4 .pic10{
+    background-image: url(16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 3/4;
+    grid-column:2/3 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box4 .pic11{
+    background-image: url(17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 3/4;
+    grid-column:3/4 ;
+    text-align: center;
+    border-radius: 24px;
+}
+.box4 .pic12{
+    background-image: url(18.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 3/4;
+    grid-column:4/5 ;
+    text-align: center; 
+    border-radius: 24px;
+}
+.box4 .grid button{ 
+    width: 120px;
+    height: 64px;
+    font-size: 16px;
+    background-color: #fff;  
+    border: none;
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 16px;
+    opacity: 80%;
+}
+.box4 .grid button:hover {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+/* foot */
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: #24262b;
+    color: #fff;
+    position: relative;
+}
+.footer .container {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+.footer .container .row{
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    height: 200px;
+}
+.footer .logo2 img{
+    width: 300px;
+    position: absolute;
+    left: 760px;
+    top: 220px;
+}
+/* SLIDE :start */
+section{
+    position: relative;  
+    height: 500px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .head2{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+  }
+  .head2 h1{
+    color: rgb(255, 255, 255) ;
+    margin: 0;
+    font-size: 48px;
+  }
+  .swiper{
+    width: 950px;
+  }
+  
+  .card{
+    position: relative;
+    background: #9f9feb;
+    border-radius: 20px;
+    height: 400px;
+    margin: 20px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card::before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: white;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+  }
+  
+  section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 20%;
+    padding: 3px;
+    background:  rgba(255, 199, 111, 1);
+    margin-top: 30px;
+  }
+  
+  section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20%;
+    border: 3px solid #fff;
+  }
+  
+  .card .media-icons{
+    position: absolute;
+    top: 12px;
+    right: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .card .media-icons i{
+    color:  rgba(255, 199, 111, 1);
+    opacity: 0.6;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .card .media-icons i:hover{
+    opacity: 1%;
+  }
+  
+  .card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: black;
+  } 
+  
+  .name-profession .name{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .name-profession .profession{
+    font-size:10px;
+    font-weight: 500;
+  }
+  
+  .card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+  }
+  
+  .card .rating i{
+    font-size: 18px;
+    margin: 0 2px;
+    color:  rgba(255, 199, 111, 1);
+  }
+  
+  .card .button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card .button button{
+    background: rgba(255, 199, 111, 1);
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button button:hover{
+    background: rgb(0, 0, 0);
+  }
+  
+  .swiper-pagination{
+    position: absolute;
+    top: 450px;
+  }
+  
+  .swiper-pagination-bullet{
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+    background: white;
+  }
+  
+  .swiper-button-next, .swiper-button-prev{
+    opacity: 0.7;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  .swiper-button-next:hover, .swiper-button-prev:hover{
+    opacity: 1;
+    color: white;
+  }
+  /* SLIDE END */
